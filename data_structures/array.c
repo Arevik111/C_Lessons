@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main()
 {
 	int arr[100] = {2, 45, 7, 0, -3};
@@ -25,7 +26,7 @@ int main()
 	
 	//print array before insertion
 	printf("Array before insertion: ");
-	for(int j = 0; j < n; j++){
+	for(int j = 0; j < n+ 1; j++){
 		printf("%d ", arr[j]);
 	}
 	printf("\n");
